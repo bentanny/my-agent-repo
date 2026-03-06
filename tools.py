@@ -56,3 +56,4 @@ def _summarize_chunk(text: str) -> str:
 
 def _normalize_dates(text: str) -> str:
     return text  # format to locale string in production
+# sanitize query input before passing to search_web
